@@ -1,0 +1,119 @@
+@font-face {
+  font-family: GIFont;
+  src: url(../../assets/fonts/ja-jp.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: GIFont;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 2rem;
+  background: #638889;
+}
+
+.header {
+  background-color: #ebd9b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.header__infor {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.header__time {
+  display: flex;
+  align-items: center;
+}
+
+.header__sound {
+  display: flex;
+  align-items: center;
+}
+
+audio {
+  height: 30px;
+}
+.main {
+  padding: 10px 20px 0 20px;
+}
+
+.big-title {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 45px;
+  background-color: #f9efdb;
+  border-radius: 5px;
+}
+
+.practice {
+  display: flex;
+  margin-top: 10px;
+  background-color: #ebd9b4;
+  border-radius: 5px;
+}
+
+.choose-section {
+  padding: 10px;
+  background-color: #f9efdb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.choose-section div[class^="section"] {
+  padding: 5px;
+  border-radius: 10px;
+}
+.content-section {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.active {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #638889;
+  color: #fff;
+}
+
+.small-ques {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+.main-ques {
+  margin-top: 10px;
+  font-size: 1.7rem;
+}
+.important-words {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.hiden {
+  display: none;
+  visibility: hidden;
+}
