@@ -22,6 +22,7 @@ html {
 body {
   font-size: 2rem;
   background: #638889;
+  overflow: hidden;
 }
 
 .header {
@@ -67,6 +68,7 @@ audio {
 }
 
 .practice {
+  height: 80vh;
   display: flex;
   margin-top: 10px;
   background-color: #ebd9b4;
@@ -112,8 +114,58 @@ audio {
   text-transform: uppercase;
   font-size: 2rem;
 }
+.section-answers {
+  margin-top: 10px;
+  border: 1px solid black;
+  background: #fff;
+}
 
+.header-ans {
+  margin-bottom: 10px;
+}
+.example-ans {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 25px 0 25px 0;
+}
+.exam-text-ans {
+  width: 100px;
+  border-bottom: 2.5px dotted black;
+}
+.exam-text {
+  font-size: 1.5rem;
+}
 .hiden {
   display: none;
   visibility: hidden;
+}
+
+.content-section-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-ans {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.section-answers {
+  padding: 10px;
+}
+.question,
+.exquestion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  position: relative;
+}
+input[type="text"] {
+  background: transparent;
+  border-bottom: 2.5px dotted black;
+  width: 110px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+p {
+  margin: 5px 0px 5px 0;
 }
